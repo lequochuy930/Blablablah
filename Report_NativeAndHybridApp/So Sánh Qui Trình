@@ -1,0 +1,24 @@
+QUY TRÌNH HIỆN THỰC
+Hybrid với PhoneGap
+1/Download và cài đặt PhoneGap trên máy tính
+2/Tạo 1 project mới
+  2.1/Mở PhoneGap lên và thêm 1 thư mục rỗng vào đường dẫn Local Path
+  2.2/Đặt tên cho App (tên hiển thị của App)
+  2.3/Đặt ID cho App (Mặc định: com.phonegap.helloworld)
+  2.4/Nhấn nút tạo project
+3/Chạy thử trên web với địa chỉ IP được cấp sau khi tạo project thành công
+4/Chỉnh sửa file quy định nội dung hiển thị (index) theo đường dẫn trong Local Path như sau : %ProjectName%\www\index.html
+5/Build file Apk
+  5.1/ Down 2 file cordova.js và cordova.jar và copy vào thư mục www
+  5.2/ Tạo thư mục xml và thêm file config (%ProjectName%\config) vào, đồng thời thêm config vào thư mục www
+  5.3/ nén file www theo định dạng .zip
+  5.3/Truy cập vào build.phonegap.com,đăng nhập, upload file .zip, build và down file apk về máy
+Native với Android Studio
+1/Down và cài đặt Android Studio
+2/Tạo project mới
+3/Chỉnh sửa các giao diện và chức năng qua các file .java và .xml
+4/Build project
+5/Export ra file apk
+Lý do khác nhau
+1/Để có thể chạy được trên nhiều nền tảng khác nhau buộc ứng dụng phải được viết bằng 1 ngôn ngữ chung mà các hệ điều hành khác nhau đều chạy được. Trong trường hợp này là ngôn ngữ lập trình Web.
+2/Để có thể upload lên store cần có file apk => nên trong quy trình cần phải có sự chuyển đổi sang dạng file này.
