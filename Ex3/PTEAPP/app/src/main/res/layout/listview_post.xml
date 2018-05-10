@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:id="@+id/imgHinhDaiDien" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="147dp"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Giá"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/price" />
+
+        <TextView
+            android:text="Texview"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_price" />
+
+        <TextView
+            android:id="@+id/type"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại" />
+
+        <TextView
+            android:id="@+id/show_type"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/area"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diện tích"
+
+            />
+
+        <TextView
+            android:id="@+id/show_area"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+
+            />
+
+        <TextView
+            android:id="@+id/address"
+           
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Địa chỉ" />
+
+        <TextView
+
+            android:id="@+id/show_address"
+           
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.khoapham.manager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="PTE BKU"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FindPost" />
+        <activity android:name=".ManagePost" />
+        <activity android:name=".SettingApp" />
+        <activity android:name=".ViewPost" />
+        <activity android:name=".EditPost" />
+        <activity android:name=".UpdatePost" />
+        <activity android:name=".NewPost" />
+        <activity android:name=".MainActivityViewPost" />
+        <activity android:name=".ContactInterface" />
+        <activity android:name=".MySMSActivity" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity"></activity>
+    </application>
+
+</manifest>

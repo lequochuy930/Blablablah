@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+    <TextView
+        android:text="Thực Tập Công Nghệ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView13"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorAccent"
+        android:layout_weight="0.12"
+        android:text="Phần Mềm" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_weight="0.05">
+
+        <ImageButton
+            android:layout_width="171dp"
+            android:layout_height="137dp"
+            app:srcCompat="@drawable/home"
+            android:layout_gravity="center"
+            android:id="@+id/imageButton2"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="172dp"
+            android:layout_height="133dp"
+            app:srcCompat="@drawable/find"
+            android:id="@+id/imageButton3"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.20">
+
+        <ImageButton
+            android:layout_width="174dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageButton4"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="172dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/setting"
+            android:id="@+id/imageButton5"
+            android:layout_weight="0.85"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>
