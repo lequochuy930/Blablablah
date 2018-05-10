@@ -6,6 +6,7 @@
 * @Đức: khi nào dùng native khi nào dùng hybrid  
 
 ## Note phần tìm hiểu lên repo để t tổng hợp, tạo file markdown riêng up lên folder này :) 
-Chiều nay t tổng hợp
+update slide thuyết trình
+Ai có hình ảnh gì hay ho dễ hiểu thêm vào report nhé :)
  
 update later question  
