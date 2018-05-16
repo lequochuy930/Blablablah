@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="volume_keys"
+        android:summary="Use volume keys to turn pages"
+        android:title="Volume Turning" />
+
+    <com.github.axet.androidlibrary.widgets.ScreenlockPreference
+        android:defaultValue="0"
+        android:entries="@array/screen_lock_text"
+        android:entryValues="@array/screen_lock_values"
+        android:key="screen_lock"
+        android:summary=""
+        android:title="@string/pref_screenlock_title" />
+
+    <ListPreference
+        android:defaultValue="@string/Theme_Light"
+        android:entries="@array/theme_text"
+        android:entryValues="@array/theme_value"
+        android:key="theme"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_theme_title" />
+</PreferenceScreen>
